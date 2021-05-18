@@ -26,7 +26,8 @@ and its cost are written to the output file 'output.txt'.
 5. Select the first state (next_state) in OPEN, remove next_state from OPEN and insert it into CLOSE.
 6. If next_state is a target state, return the cost and route.
 7. Expand next_state and create its sons M in G.
-8. For states from M not in OPEN or CLOSE - calculate h, enter OPEN, and create a pointer from them to next_state (the parent).
+8. For states from M not in OPEN or CLOSE - calculate h, enter OPEN, \
+   and create a pointer from them to next_state (the parent).
           
 ## A* algorithm:
 1. Build a search graph G, with an init state, state, and put state in the OPEN list.
@@ -36,8 +37,10 @@ and its cost are written to the output file 'output.txt'.
 5. Select the first state (next_state) in OPEN, remove next_state from OPEN and insert it into CLOSE.
 6. If next_state is a target state, return the cost and route.
 7. Expand next_state and create its sons M in G.
-8. For states from M not in OPEN or CLOSE - calculate f, enter OPEN, and create a pointer from them to next_state (the parent).
-9. For the rest of the M states that are in OPEN or CLOSE, you need to decide if update f and put a pointer to next_state (the new parent) or not.
+8. For states from M not in OPEN or CLOSE - calculate f, enter OPEN, \
+   and create a pointer from them to next_state (the parent).
+10. For the rest of the M states that are in OPEN or CLOSE, you need to decide if \
+   update f and put a pointer to next_state (the new parent) or not.
           
 ### Requirements:
 pip install pycopy-copy
