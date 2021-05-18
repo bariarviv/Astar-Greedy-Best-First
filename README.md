@@ -40,6 +40,11 @@ and its cost are written to the output file 'output.txt'.
 9. For the rest of the M states that are in OPEN or CLOSE, you need to decide if update f and put a pointer to next_state (the new parent) or not.
           
 ### Requirements:
-
 pip install pycopy-copy
 
+## Results
+### A* algorithm:
+![alt text](https://github.com/bariarviv/Astar-Greedy-Best-First/blob/master/astar.png?raw=true "astar")
+
+### Greedy Best First algorithm:
+![alt text](https://github.com/bariarviv/Astar-Greedy-Best-First/blob/master/greedy_best_first_output.png?raw=true "greedyBestFirst")
