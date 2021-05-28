@@ -18,7 +18,7 @@ The program reads from the 'input.txt' input file containing:
 At the end of the program the search results, the route from A to B, \
 and its cost are written to the output file 'output.txt'.
 
-## Greedy Best First algorithm:
+## Greedy Best First algorithm
 1. Build a search graph G, with an init state, state, and put state in the OPEN list.
 2. Create an empty CLOSE list.
 3. Loop: As long as OPEN is not empty:
@@ -29,7 +29,7 @@ and its cost are written to the output file 'output.txt'.
 8. For states from M not in OPEN or CLOSE - calculate h, enter OPEN, \
    and create a pointer from them to next_state (the parent).
           
-## A* algorithm:
+## A* algorithm
 1. Build a search graph G, with an init state, state, and put state in the OPEN list.
 2. Create an empty CLOSE list.
 3. Loop: As long as OPEN is not empty:
@@ -42,12 +42,14 @@ and its cost are written to the output file 'output.txt'.
 10. For the rest of the M states that are in OPEN or CLOSE, you need to decide if \
    update f and put a pointer to next_state (the new parent) or not.
           
-### Requirements:
+### Requirements
+~~~bash
 pip install pycopy-copy
+~~~
 
 ## Results
-### A* algorithm:
+### A* algorithm
 ![alt text](https://github.com/bariarviv/Astar-Greedy-Best-First/blob/master/astar.png?raw=true "astar")
 
-### Greedy Best First algorithm:
+### Greedy Best First algorithm
 ![alt text](https://github.com/bariarviv/Astar-Greedy-Best-First/blob/master/greedy_best_first_output.png?raw=true "greedyBestFirst")
