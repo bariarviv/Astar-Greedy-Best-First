@@ -48,8 +48,12 @@ pip install pycopy-copy
 ~~~
 
 ## Results
-### A* algorithm
-![alt text](https://github.com/bariarviv/Astar-Greedy-Best-First/blob/master/astar.png?raw=true "astar")
+### A* algorithm:
+<p align="center">
+  <img src="astar.png">
+</p>
 
-### Greedy Best First algorithm
-![alt text](https://github.com/bariarviv/Astar-Greedy-Best-First/blob/master/greedy_best_first_output.png?raw=true "greedyBestFirst")
+### Greedy Best First algorithm:
+<p align="center">
+  <img src="greedy_best_first_output.png">
+</p>
