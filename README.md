@@ -39,7 +39,7 @@ and its cost are written to the output file 'output.txt'.
 7. Expand next_state and create its sons M in G.
 8. For states from M not in OPEN or CLOSE - calculate f, enter OPEN, \
    and create a pointer from them to next_state (the parent).
-10. For the rest of the M states that are in OPEN or CLOSE, you need to decide if \
+9. For the rest of the M states that are in OPEN or CLOSE, you need to decide if \
    update f and put a pointer to next_state (the new parent) or not.
           
 ### Requirements
